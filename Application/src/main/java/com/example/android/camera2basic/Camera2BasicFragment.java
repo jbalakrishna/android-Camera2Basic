@@ -336,7 +336,7 @@ public class Camera2BasicFragment extends Fragment
         public void onCaptureProgressed(@NonNull CameraCaptureSession session,
                                         @NonNull CaptureRequest request,
                                         @NonNull CaptureResult partialResult) {
-            process(partialResult);
+//             process(partialResult);
         }
 
         @Override
